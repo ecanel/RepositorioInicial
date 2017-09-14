@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MaterialDesign</string>
+    <string name="text_insert">Ingresa un valor</string>
+    <string name="msj_empty_text">No has ingresado un texto.</string>
+
+    <string name="chx_atm">Cajero</string>
+    <string name="cbx_bag">Bolsa</string>
+    <string name="cbx_basket">Canasta</string>
+    <string name="cbx_box">Caja</string>
+    <string name="cbx_briefcase">Maletin</string>
+    <string name="cbx_calculator">Calculadora</string>
+
+    <string name="bt_Img_Opt">Imagen Options</string>
+    <string name="bt_txt_activity">Manipular Textos</string>
+    <string name="bt_txt_SelectedOpt">Selected Options</string>
+    <string name="bt_txt_ListView">Mostrar ListView</string>
+
+    <string-array name="selected_options">
+        <item>Cajero</item>
+        <item>Bolsa</item>
+        <item>Canasta</item>
+        <item>Caja</item>
+        <item>Maletin</item>
+        <item>Calculadora</item>
+    </string-array>
+</resources>
