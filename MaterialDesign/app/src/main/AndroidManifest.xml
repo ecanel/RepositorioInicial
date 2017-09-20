@@ -19,7 +19,15 @@
         <activity android:name=".activities.TextActivity" />
         <activity android:name=".activities.ImageOptActivity" />
         <activity android:name=".activities.SelectedOptActivity" />
-        <activity android:name=".activities.ListViewActivity"></activity>
+        <activity android:name=".activities.ListViewActivity" />
+        <activity
+            android:name=".activities.RecyclerActivity"
+            android:label="@string/title_activity_recycler"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.RecyclerActivityTarea"
+            android:label="@string/title_activity_recycler_tarea"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

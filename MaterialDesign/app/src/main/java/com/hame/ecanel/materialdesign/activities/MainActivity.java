@@ -4,10 +4,12 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Spinner;
 
 import com.hame.ecanel.materialdesign.R;
 
 public class MainActivity extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,5 +34,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void openListView(View view){
         startActivity(new Intent(this,ListViewActivity.class));
+    }
+
+    public void openRecycler(View view){
+        startActivity(new Intent(this,RecyclerActivity.class));
+    }
+
+    public void openRecyclerTarea(View view){
+        startActivity(new Intent(this,RecyclerActivityTarea.class));
     }
 }

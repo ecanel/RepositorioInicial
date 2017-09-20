@@ -14,6 +14,8 @@
     <string name="bt_txt_activity">Manipular Textos</string>
     <string name="bt_txt_SelectedOpt">Selected Options</string>
     <string name="bt_txt_ListView">Mostrar ListView</string>
+    <string name="bt_txt_Recycler">Recycler</string>
+    <string name="bt_txt_RecyclerTarea">Recycler  Tarea</string>
 
     <string-array name="selected_options">
         <item>Cajero</item>
@@ -23,4 +25,6 @@
         <item>Maletin</item>
         <item>Calculadora</item>
     </string-array>
+    <string name="title_activity_recycler">RecyclerActivity</string>
+    <string name="title_activity_recycler_tarea">RecyclerActivityTarea</string>
 </resources>

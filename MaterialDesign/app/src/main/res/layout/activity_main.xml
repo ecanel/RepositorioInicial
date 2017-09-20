@@ -59,6 +59,26 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/bt_Recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openRecycler"
+        android:text="@string/bt_txt_Recycler"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/bt_RecyclerTarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openRecyclerTarea"
+        android:text="@string/bt_txt_RecyclerTarea"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </LinearLayout>
