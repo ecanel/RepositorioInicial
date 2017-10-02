@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Formulario de Ventas</string>
+    <string name="title_activity_cliente">ClienteActivity</string>
+    <string name="txtNomCliente">Ingrese el nombre del cliente.</string>
+    <string name="txtDireccion">Ingrese la dirección.</string>
+    <string name="txtNit">Ingrese el NIT.</string>
+    <string name="txtTelefono">Ingrese el numero de teléfono.</string>
+    <string name="txtCorreo">Ingrese el correo electronico.</string>
+    <string name="txtContacto">Ingrese el nombre del contacto.</string>
+    <string name="action_settings">Settings</string>
+    <string name="titLogin">Login</string>
+    <string name="titPrincipal">Formulario de Ventas</string>
+    <string name="titVentas">Consulta de Ventas</string>
+    <string name="titIngresoClientes"></string>
+    <string name="titImagenes">Imagenes</string>
+    <string name="txtUsuario">Ingrese su usuario.</string>
+    <string name="txtClave">Ingrese su password.</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_ventas_consulta">Consulta de Ventas</string>
+    <string name="title_activity_imagen">Imagenes</string>
+    <string name="txtIdentificador">Identificador del equipo</string>
+    <string name="txtDireccionWeb">Dirección del web service</string>
+    <string name="titleActivitySincronizar">Sincronizar</string>
+    <string name="falta_camara_sistema">No existe el dispositivo cámara en su equipo</string>
+</resources>

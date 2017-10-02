@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.hame.ecanel.formularioventas.clases.clases.ClienteActivity"
+    tools:showIn="@layout/activity_cliente">
+
+    <EditText
+        android:id="@+id/txtCodigoCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:text="0"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/txtCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="@string/txtNomCliente"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/common_google_signin_btn_text_light_focused"
+        android:textColorLink="?attr/colorPrimary"
+        android:theme="@style/ColorBorde" />
+
+    <EditText
+        android:id="@+id/txtDireccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="@string/txtDireccion"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/common_google_signin_btn_text_light_focused"
+        android:theme="@style/ColorBorde" />
+
+    <EditText
+        android:id="@+id/txtNit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="@string/txtNit"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/common_google_signin_btn_text_light_focused"
+        android:theme="@style/ColorBorde" />
+
+    <EditText
+        android:id="@+id/txtTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="@string/txtTelefono"
+        android:inputType="textPersonName|phone"
+        android:textColorHint="@color/common_google_signin_btn_text_light_focused"
+        android:theme="@style/ColorBorde" />
+
+    <EditText
+        android:id="@+id/txtCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="@string/txtCorreo"
+        android:inputType="textEmailAddress|textPersonName"
+        android:textColorHint="@color/common_google_signin_btn_text_light_focused"
+        android:theme="@style/ColorBorde" />
+
+    <EditText
+        android:id="@+id/txtContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="@string/txtContacto"
+        android:inputType="textPersonName|text"
+        android:textColorHint="@color/common_google_signin_btn_text_light_focused"
+        android:theme="@style/ColorBorde" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="right">
+
+        <Button
+            android:id="@+id/btnSincronizar"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:background="@android:drawable/presence_away"
+            android:onClick="abrirSincronizar"
+            android:textColor="@color/colorAccent"
+            android:tooltipText="Sincronizar"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btnBorrar"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:background="@android:drawable/ic_delete"
+            android:onClick="borrarCliente"
+            android:textColor="@color/colorAccent"
+            android:tooltipText="Borrar Cliente"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btnSiguiente"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:background="@drawable/next"
+            android:elevation="1dp"
+            android:onClick="grabar"
+            android:tooltipText="Agregar Imagenes" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.hame.ecanel.formularioventas.clases.clases.IngresoActivity">
+
+    <EditText
+        android:id="@+id/txtClave"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnCancelar"
+        android:layout_alignRight="@+id/btnCancelar"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="@string/txtClave"
+        android:inputType="textPersonName"
+        android:password="true"
+        android:text="sys" />
+
+    <ImageView
+        android:id="@+id/imgUsuario"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imgClave"
+        android:layout_alignLeft="@+id/btnCancelar"
+        android:layout_alignStart="@+id/btnCancelar"
+        app:srcCompat="@drawable/andusuario" />
+
+    <ImageView
+        android:id="@+id/imgClave"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnCancelar"
+        android:layout_alignStart="@+id/btnCancelar"
+        android:layout_alignTop="@+id/txtClave"
+        app:srcCompat="@drawable/andclave" />
+
+    <EditText
+        android:id="@+id/txtUsuario"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtClave"
+        android:layout_alignLeft="@+id/txtClave"
+        android:layout_alignStart="@+id/txtClave"
+        android:ems="10"
+        android:hint="@string/txtUsuario"
+        android:inputType="textPersonName"
+        android:text="System" />
+
+
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtClave"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:onClick="validarIngreso"
+        android:text="Ingresar"
+        android:textColor="@color/colorAccent" />
+
+    <ImageView
+        android:id="@+id/imgLogoIco"
+        android:layout_width="160dp"
+        android:layout_height="107dp"
+        android:layout_above="@+id/imgUsuario"
+        android:layout_centerHorizontal="true"
+        android:layout_x="103dp"
+        android:layout_y="111dp"
+        app:srcCompat="@drawable/grupohame" />
+</RelativeLayout>
